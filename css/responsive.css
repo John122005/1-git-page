@@ -1,0 +1,59 @@
+@media(max-width: 767px)
+{
+    #items .wrapper .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 32px;
+        filter: grayscale(75%);
+        padding: 0 16px;
+    }
+    
+    /*.page-content {
+        /*display: flex;
+    }*/
+    
+    #jeans .wrapper .item-cart img {
+        /*display: flex;
+        align-self: center;*/
+        width: 100%;
+        height: auto;
+    }
+    
+    nav {
+        display: none;
+    }
+}
+
+@media(min-width: 767px)
+{
+    #items .wrapper .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 32px;
+        filter: grayscale(75%);
+        padding: 0 16px;
+    }
+    
+    .page-content {
+        margin-left: 250px;
+    }
+    
+    footer {
+        margin-left: 250px;
+    }
+}
+
+@media(min-width: 920px)
+{
+    #items .wrapper .grid-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 32px;
+        filter: grayscale(75%);
+        padding: 0 16px;
+    }
+    
+    .page-content {
+        margin-left: 250px;
+    }
+}
