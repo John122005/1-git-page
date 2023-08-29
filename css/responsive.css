@@ -8,9 +8,17 @@
         padding: 0 16px;
     }
     
-    /*.page-content {
-        /*display: flex;
-    }*/
+    #jeans .wrapper .item-cart .cart-title .title {
+		font-size: 18px;
+	}
+	
+	#jeans .wrapper .item-cart .cart-title .collection {
+		font-size: 16px;
+	}
+	
+	#jeans .wrapper .item-cart .cart-title button {
+		font-size: 6px;
+	}
     
     #jeans .wrapper .item-cart img {
         /*display: flex;
