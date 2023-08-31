@@ -1,67 +1,145 @@
-@media(max-width: 767px)
-{
-    #items .wrapper .grid-container {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        column-gap: 32px;
-        filter: grayscale(75%);
-        padding: 0 16px;
-    }
-    
-    #jeans .wrapper .item-cart .cart-title .title {
+@media(max-width: 767px) {
+	#items .wrapper .grid-container {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		column-gap: 32px;
+		filter: grayscale(75%);
+		padding: 0 16px;
+	}
+
+	.page-content header {
+		background-color: black;
+		color: #fff;
+		font-size: 24px;
+		top: 0;
+		position: fixed;
+		width: 100%;
+		display: block;
+		letter-spacing: 4px;
+	}
+
+	.page-content header p {
+		padding: 24px 16px;
+		float: left;
+		width: auto;
+		border: none;
+		margin: 0;
+	}
+
+	.page-content header img {
+		padding: 24px 16px;
+		float: right;
+		cursor: pointer;
+		width: auto;
+	}
+
+	#jeans .category-jeans {
+		font-size: 24px;
+		padding: 0 16px;
+		display: block;
+	}
+
+	#jeans .category-jeans p {
+		font-size: 26px;
+		float: left;
+		margin: 24px 0;
+	}
+
+	#jeans .wrapper .item-cart .cart-title .title {
 		font-size: 18px;
 	}
-	
+
 	#jeans .wrapper .item-cart .cart-title .collection {
 		font-size: 16px;
 	}
-	
+
 	#jeans .wrapper .item-cart .cart-title button {
 		font-size: 6px;
 	}
-    
-    #jeans .wrapper .item-cart img {
-        /*display: flex;
+
+	#jeans .wrapper .item-cart img {
+		/*display: flex;
         align-self: center;*/
-        width: 100%;
-        height: auto;
-    }
-    
-    nav {
-        display: none;
-    }
+		width: 100%;
+		height: auto;
+	}
+
+	nav {
+		display: none;
+	}
 }
 
-@media(min-width: 767px)
-{
-    #items .wrapper .grid-container {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        column-gap: 32px;
-        filter: grayscale(75%);
-        padding: 0 16px;
-    }
-    
-    .page-content {
-        margin-left: 250px;
-    }
-    
-    footer {
-        margin-left: 250px;
-    }
+@media(min-width: 767px) {
+	#items .wrapper .grid-container {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		column-gap: 32px;
+		filter: grayscale(75%);
+		padding: 0 16px;
+	}
+
+	nav {
+		display: none;
+	}
+
+	.page-content header {
+		background-color: black;
+		color: #fff;
+		font-size: 24px;
+		top: 0;
+		position: fixed;
+		width: 100%;
+		display: block;
+		letter-spacing: 4px;
+	}
+
+	.page-content header p {
+		padding: 24px 16px;
+		float: left;
+		width: auto;
+		border: none;
+		margin: 0;
+	}
+
+	.page-content header img {
+		padding: 24px 16px;
+		float: right;
+		cursor: pointer;
+		width: auto;
+	}
+
+	#jeans .category-jeans {
+		font-size: 24px;
+		padding: 0 16px;
+		display: block;
+	}
+
+	#jeans .category-jeans p {
+		font-size: 26px;
+		float: left;
+		margin: 24px 0;
+	}
 }
 
-@media(min-width: 920px)
-{
-    #items .wrapper .grid-container {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        column-gap: 32px;
-        filter: grayscale(75%);
-        padding: 0 16px;
-    }
-    
-    .page-content {
-        margin-left: 250px;
-    }
+@media(min-width: 920px) {
+	#items .wrapper .grid-container {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		column-gap: 32px;
+		filter: grayscale(75%);
+		padding: 0 16px;
+	}
+
+	.page-content {
+		margin-left: 250px;
+	}
+
+	.page-content header {
+		display: none;
+	}
+
+	nav {
+		 display: block;
+	}
+
 }
