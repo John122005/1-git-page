@@ -68,6 +68,12 @@ nav .wrapper .main-menu .group p:hover {
 	margin: 24px 0;
 }
 
+#jeans .category-jeans img {
+	float: right;
+	margin: 13px 0;
+	cursor: pointer;
+}
+
 #jeans .wrapper .item-cart {
 	padding: 0.01em 16px;
 	position: relative;
